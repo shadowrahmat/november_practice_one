@@ -1,0 +1,257 @@
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* shared style */
+
+.text_align {
+    text-align: center;
+}
+
+
+/* banner section design */
+
+.banner {
+
+    background-image: url('/images/banner/banner1.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding-right: 80px; */
+    padding-right: 100px;
+}
+
+.banner_content {
+
+    max-width: 50%;
+    text-align: left;
+}
+
+.banner_content h1 {
+
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.banner_content p {
+
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.banner_content button {
+
+    font-size: 18px;
+    background-color: #F15B22;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* failures section */
+
+.my_failure {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+    
+}
+
+.failures_work {
+
+    /* max-width: 500px; */
+}
+
+.tittle {
+
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.description {
+
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.my_failure ul li {
+    list-style: none;
+}
+
+
+
+.my_plan_works {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.my_plan_work {
+
+    padding: 15px;
+}
+
+
+.mindset {
+
+    background-image: url('/images/watch.png');
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+
+.mindset h2 {
+
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mindset button {
+
+    font-size: 18px;
+    background-color: #ffffff;
+    color: rgb(252, 108, 46);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 50px 20px;
+    
+}
+
+.footer_content {
+
+    display: flex;
+    gap: 30px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.feture {
+
+    width: 60%;
+}
+
+.subscrbe {
+
+    width: 40%;
+}
+
+.feture h2 {
+
+    color: white;
+}
+
+.subscrbe h2 {
+
+    color: white;
+}
+
+.feture a {
+
+    color: white;
+    display: flex;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+
+.feture p {
+
+    color: white;
+}
+
+.contact input {
+
+    display: block;
+    margin-bottom: 15px;
+    padding: 12px 26px;
+    border-radius: 6px;
+    border: none;
+
+}
+
