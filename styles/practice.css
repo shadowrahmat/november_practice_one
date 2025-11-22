@@ -69,7 +69,10 @@
 
 .banner {
 
-    background-image: url('/images/banner/banner1.png');
+    /* background-image: url('/images/banner/banner1.png'); */
+    /* background-image: url('/images/banner/banner2.png'); */
+    background-image: url('/images/banner/banner3.png');
+    
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
